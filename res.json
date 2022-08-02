@@ -1,0 +1,121 @@
+{
+    "responseId": "ec75bc3c-586a-4a07-9922-d568dd72b050-1257bac9",
+    "queryResult": {
+        "queryText": "si",
+        "parameters": {},
+        "allRequiredParamsPresent": true,
+        "fulfillmentMessages": [
+            {
+                "text": {
+                    "text": [
+                        ""
+                    ]
+                }
+            }
+        ],
+        "outputContexts": [
+            {
+                "name": "projects/distribuidoraringo-xwwm/agent/sessions/c2fbc6bf-9d6b-2361-6a6d-57b03a876f83/contexts/contexto-pedido",
+                "lifespanCount": 7,
+                "parameters": {
+                    "promo": [
+                        "1"
+                    ],
+                    "promo.original": [
+                        "1"
+                    ],
+                    "nombre": [
+                        "hernan"
+                    ],
+                    "nombre.original": [
+                        "hernan"
+                    ],
+                    "direccion": [
+                        "calle falsa 123"
+                    ],
+                    "direccion.original": [
+                        "calle falsa 123"
+                    ]
+                }
+            },
+            {
+                "name": "projects/distribuidoraringo-xwwm/agent/sessions/c2fbc6bf-9d6b-2361-6a6d-57b03a876f83/contexts/__system_counters__",
+                "parameters": {
+                    "no-input": 0,
+                    "no-match": 0
+                }
+            }
+        ],
+        "intent": {
+            "name": "projects/distribuidoraringo-xwwm/agent/intents/7ee1b89c-6baf-42b2-adf1-5ae2b3415e6d",
+            "displayName": "pedido.cofirma.si"
+        },
+        "intentDetectionConfidence": 1,
+        "languageCode": "es",
+        "sentimentAnalysisResult": {
+            "queryTextSentiment": {
+                "score": 0.3,
+                "magnitude": 0.3
+            }
+        }
+    },
+    "originalDetectIntentRequest": {
+        "source": "DIALOGFLOW_CONSOLE",
+        "payload": {}
+    },
+    "session": "projects/distribuidoraringo-xwwm/agent/sessions/c2fbc6bf-9d6b-2361-6a6d-57b03a876f83"
+}
+[
+    {
+        "name": "projects/distribuidoraringo-xwwm/agent/sessions/c2fbc6bf-9d6b-2361-6a6d-57b03a876f83/contexts/contexto-pedido",
+        "lifespanCount": 7,
+        "parameters": {
+            "promo": [
+                "1"
+            ],
+            "promo.original": [
+                "1"
+            ],
+            "nombre": [
+                "hernan"
+            ],
+            "nombre.original": [
+                "hernan"
+            ],
+            "direccion": [
+                "calle falsa 123"
+            ],
+            "direccion.original": [
+                "calle falsa 123"
+            ]
+        }
+    },
+    {
+        "name": "projects/distribuidoraringo-xwwm/agent/sessions/c2fbc6bf-9d6b-2361-6a6d-57b03a876f83/contexts/__system_counters__",
+        "parameters": {
+            "no-input": 0,
+            "no-match": 0
+        }
+    }
+]
+
+{
+    "promo": [
+        "3"
+    ],
+    "promo.original": [
+        "3"
+    ],
+    "nombre": [
+        "hernan"
+    ],
+    "nombre.original": [
+        "hernan"
+    ],
+    "direccion": [
+        "calle falsa 123"
+    ],
+    "direccion.original": [
+        "calle falsa 123"
+    ]
+}
